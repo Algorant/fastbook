@@ -1,0 +1,45 @@
+- [[Ch 3 Questions]]
+    - Does ethics provide a list of "right answers"?
+        - **No it does not. [[Ethics]] is complicated and context-dependent (culture, domain, scope, etc)**
+    - How can working with people of different backgrounds help when considering ethical questions?
+        - **It gives different perspectives, which is oftentimes valuable.**
+    - What was the role of [[IBM]] in [[Nazi]] [[Germany]]? Why did the company participate as it did? Why did the workers participate?
+        - **It created the systems by which the [[Nazi]] government kept track of people in camps. They had contracts with the [[German]] government. The workers were just doing their jobs, detached from who was buying the product.**
+    - What was the role of the first person jailed in the [[Volkswagen]] diesel scandal?
+        - **He was the engineer who made it so they could cheat on the tests.**
+    - What was the problem with a database of suspected gang members maintained by [[California]] law enforcement officials?
+        - **There were errors in it, including infants who had "admitted to being a gang member, and no system in place to correct it.**
+    - Why did [[YouTube]]'s recommendation algorithm recommend videos of 
+partially clothed children to pedophiles, even though no employee at 
+[[Google]] had programmed this feature?
+        - **Because it began making playlists of home videos of prepubescent children.**
+    - What are the problems with the centrality of metrics?
+        - **If the metrics are recorded and monitored to reach a specific result (ie make the most money), then when humans interact with this system they will manipulate and gamify it.**
+    - Why did [[Meetup]].com not include gender in its recommendation system for tech meetups?
+        - **It had the potential to create a feedback loop which gradually stopped recommending tech meetups to women.**
+    - What are the six types of [[bias]] in machine learning, according to Suresh and Guttag?
+        - **The six types are: Historical, Representation, Measurement, Evaluation, Aggregation, and Deployment [[bias]].**
+    - Give two examples of historical race bias in the [[US]].
+        - **Judicial bias and [[recidivism]]. **
+        - **Financial bias (buying used cars, renting apartment)**
+    - Where are most images in [[ImageNet]] from?
+        - **The vast majority are from the [[US]] and other Western countries.**
+    - In the paper ["Does Machine Learning Automate Moral Hazard and Error"](https://scholar.harvard.edu/files/sendhil/files/aer.p20171084.pdf) why is sinusitis found to be predictive of a stroke?
+        - **Because it is something a person who is already more likely to go to the doctor for, would have been treated for in the past.**
+    - What is representation bias?
+        - **The amplification of an existing bias, rather than just reflecting it or being accurate about it.**
+    - How are machines and people different, in terms of their use for making decisions?
+        - **People are more likely to assume algorithms are objective or error free, and the reasons for using an algorithm are not necessarily the same as the reason to use a human.**
+    - Is disinformation the same as "fake news"?
+        - **No, there is some overlap but they are different. Disinformation tends to sow discontent or demoralize others into thinking the truth is unknowable or difficult to parse.**
+    - Why is disinformation through auto-generated text a particularly significant issue?
+        - **This will make creating high quality forgery both inexpensive and automated, with very little hope of spotting it without appropriate steps being taken today before its a problem.**
+    - What are the five ethical lenses described by the Markkula Center?
+        - They are:
+            - Rights
+            - Justice
+            - Utilitarian
+            - Common Good
+            - Virtue
+    - Where is policy an appropriate tool for addressing data ethics issues?
+        - **At the intersection of where profit incentive meets [[negative externalities]].**
