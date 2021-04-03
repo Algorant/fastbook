@@ -1,0 +1,48 @@
+- Why do we first resize to a large size on the [[CPU]], and then to a smaller size on the [[GPU]]?
+    - **[[fastai]] has developed a concept called [[presize]]ing that seems to give much better transform results for images. Since the first resizing is always square and uniform, it's not too bad to do on the [[CPU]], and then have the resizing and warping and remapping done on [[GPU]].**
+- If you are not familiar with [[regular expression]]s, find a [[regular expression]] tutorial, and some problem sets, and complete them. Have a look on the book's website for suggestions.
+    - **Ok!**
+- What are the two ways in which data is most commonly provided, for most [[deep learning]] datasets?
+- Look up the documentation for L and try using a few of the new methods that it adds.
+    - **Alright!**
+- Look up the documentation for the [[Python]] [[pathlib]] module and try using a few methods of the [[Path]] class.
+    - **Will do.**
+- Give two examples of ways that image transformations can degrade the quality of the data.
+    - **The can add noise/distortion and also result in significant quality loss.**
+- What method does fastai provide to view the data in a [[DataLoader]]?
+    - Path, which returns a collection in the L class, which is like Python list method except has a couple things that are very beneficial for modeling.
+- What method does fastai provide to help you debug a [[DataBlock]]?
+    - **The .summary method.**
+- Should you hold off on training a model until you have thoroughly cleaned your data?
+    - **Not necessarily. [[fastai]] has tools that encourage you to model as quickly as possible, and then use that in different ways to clean your data.**
+- What are the two pieces that are combined into cross-entropy loss in [[PyTorch]]?
+    - **[[LogSoftmax]] and [[NLLLoss]]**
+- What are the two properties of activations that [[softmax]] ensures? Why is this important?
+    - **1) It ensures all numbers are positive.**
+    - **2) It ensures that all the probabilities sum up to 1 (100%)**
+- When might you want your activations to not have these two properties?
+    - **During for example an inference model. Or when you want your model to tell you it doesn't recognize any of the classes seen during training. [[softmax]] will always want to pick something.**
+- Calculate the exp and [[softmax]] columns of <> yourself (i.e., in a spreadsheet, with a calculator, or in a notebook).
+    - **I think I understand it.**
+- Why can't we use torch.where to create a loss function for datasets where our label can have more than two categories?
+    - **It is only useful in binary classification.**
+- What is the value of log(-2)? Why?
+    - **It is either an imaginary number, or does not exist. The lower bound of logs is 0.**
+- What are two good rules of thumb for picking a [[learning rate]] from the [[learning rate]] finder?
+    - **One order of magnitude less than where the minimum loss was achieved.**
+    - **The last point where the loss was clearly decreasing.**
+- What two steps does the [[fine_tune]] method do?
+    - **It trains the randomly added layers for one [[epoch]], with all other layers frozen.**
+    - **It unfreezes all of the layers, and trains them all for the number of [[epoch]]s requested.**
+- In [[[[Jupyter]] Notebook ]], how do you get the source code for a method or function?
+    - **At least with [[fast.ai,]] you can add "??" at the end and it will open up and show you.**
+- What are discriminative learning rates?
+    - **It sets only the lowest layer of the net to a specific learning rate, letting the other layers scale up in magnitude.**
+- How is a [[Python]] slice object interpreted when passed as a learning rate to [[fastai]]?
+    - **The first layer and the last layer are the slice, and everything inbetween will be equidistant throughout that range.**
+- Why is early stopping a poor choice when using 1cycle training?
+    - **It will often not give the best result, and leads to overfit a lot of the time.**
+- What is the difference between [[resnet50]] and [[resnet101]]?
+    - They are both 3 layer block residual networks ([[CNN]]s). One has 17 layers, one has 33 layers.
+- What does to_fp16 do?
+    - It helps speed up training in deeper architectures and require a lot less [[GPU]] memory.
